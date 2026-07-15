@@ -26,3 +26,7 @@ This research was conducted during my B.Tech in Electronics and Communication En
 
 ## Authors
 *   Chaithanya Vemuri
+*   Jhansi Meghana Kuncham
+*   Reddy Rekha M
+*   Mohith M S
+*   Anitha Y
