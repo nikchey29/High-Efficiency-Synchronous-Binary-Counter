@@ -1,9 +1,6 @@
-# High-Efficiency Synchronous Binary Counter
+### ⚙️ High-Efficiency Synchronous Binary Counter
 
-This repository documents an academic digital-design project focused on improving the operating speed of a synchronous binary counter through a parallel architecture.
-
-The work was completed during my B.Tech in Electronics and Communication Engineering and was prepared in the context of ICC-ROBINS 2025.
-
+An undergraduate digital-design research project exploring synchronous sequential logic, propagation delay and parallel counter architecture in the context of ICC-ROBINS 2025.
 ## Project Overview
 
 Conventional synchronous counters can become limited by propagation delay as counter width increases. This project explores a parallel counter architecture intended to reduce the critical path and improve operating frequency.
