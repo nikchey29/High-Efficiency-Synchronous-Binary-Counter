@@ -1,4 +1,4 @@
-### ⚙️ High-Efficiency Synchronous Binary Counter
+## ⚙️ High-Efficiency Synchronous Binary Counter
 
 An undergraduate digital-design research project exploring synchronous sequential logic, propagation delay and parallel counter architecture in the context of ICC-ROBINS 2025.
 ## Project Overview
