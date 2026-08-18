@@ -1,32 +1,55 @@
 # High-Efficiency Synchronous Binary Counter
 
-This repository contains the architecture design and simulation files for a high-efficiency synchronous binary counter. This project was submitted to the ICC-ROBINS 2025 conference.
+This repository documents an academic digital-design project focused on improving the operating speed of a synchronous binary counter through a parallel architecture.
+
+The work was completed during my B.Tech in Electronics and Communication Engineering and was prepared in the context of ICC-ROBINS 2025.
 
 ## Project Overview
-Synchronous binary counters are foundational components in digital systems. This project focuses on minimizing the clock period by employing an optimized parallel architecture, reducing propagation delays typically associated with standard counter designs.
 
-## Key Features
-*   **Minimal Clock Period:** Achieves higher operational frequencies by minimizing the critical path delay.
-*   **Optimized Parallel Architecture:** Utilizes parallel look-ahead logic to compute next-state values efficiently.
-*   **High Efficiency:** Balances speed with area and power considerations for practical implementation.
+Conventional synchronous counters can become limited by propagation delay as counter width increases. This project explores a parallel counter architecture intended to reduce the critical path and improve operating frequency.
 
-## Technical Details
-*   **Design Focus:** Digital Logic, Sequential Circuits, Parallel Architecture.
-*   **Languages/Tools:** [Insert your specific tools here, e.g., Verilog, VHDL, ModelSim, Xilinx]
+The project focuses on:
 
-## Repository Structure
-*   `src/`: Contains the hardware description language (HDL) source code for the counter.
-*   `docs/`: Includes the conference paper detailing the methodology and results.
-*   `images/`: Architecture diagrams and simulation waveforms.
+- synchronous sequential logic
+- parallel next-state computation
+- critical-path reduction
+- counter architecture design
+- simulation and design evaluation
 
-## Academic Context
-This research was conducted during my B.Tech in Electronics and Communication Engineering at Sri Venkateswara College of Engineering. 
+## Project Materials
 
-**Conference:** ICC-ROBINS 2025
+This repository currently contains the supporting project documentation and demonstration material.
+
+### Documentation
+
+- `docs/project-paper.pdf` — detailed project report
+- `docs/software-design.pdf` — design/software documentation
+- `docs/final-presentation.pptx` — project presentation
+
+### Demonstration
+
+- `images/demo-video.mp4` — recorded project demonstration
+
+## Technical Focus
+
+The work is centered on digital logic and sequential circuit design, particularly the trade-off between counter speed, propagation delay, and implementation complexity.
+
+The main design idea is to reduce dependency between successive counter stages by using a more parallel next-state computation approach.
+
+## Research Context
+
+This project was completed as part of my undergraduate Electronics and Communication Engineering work.
+
+Conference context: ICC-ROBINS 2025.
 
 ## Authors
-*   Chaithanya Vemuri
-*   Jhansi Meghana Kuncham
-*   Reddy Rekha M
-*   Mohith M S
-*   Anitha Y
+
+- Chaithanya Vemuri
+- Jhansi Meghana Kuncham
+- Reddy Rekha M
+- Mohith M S
+- Anitha Y
+
+## Note
+
+This repository currently preserves the project documentation, presentation, and demonstration material. The original HDL implementation files are not included in the current repository.
